@@ -1,0 +1,26 @@
+table {
+    margin: 1%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+caption {
+    font-size: 3.5vi;
+    color: var(--yellow);
+}
+th, td {
+    border: 0.1em solid var(--trim);
+    font-size: 3vi;
+    border-radius: 0.3em;
+    background: radial-gradient(var(--tertiaryDark), var(--secondaryDark));
+}
+th {
+    color: var(--yellow);
+}
+td {
+    text-align: center;
+}
+@media all and (min-width: 768px) {
+    table * {
+        font-size: 1.1em;
+    }
+}
